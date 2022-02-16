@@ -1,0 +1,20 @@
+/* Clases para ajustes */
+
+.card-deck-padding{
+    padding-bottom: 2%;
+    padding-top: 3%;
+}
+
+.precioAnterior{
+    text-decoration:line-through;
+}
+.stylesHead{
+    /*background-color: #1a1a1a; */
+    background-image: url("./fondo.png");
+    height: 10rem;
+}
+
+.transparetText{
+    background-color: transparent;
+    color:#ffffff;
+}

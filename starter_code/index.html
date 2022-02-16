@@ -1,11 +1,194 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title E-comerce page</title>
-    <!--There are some bugs, please fix those before start your solution-->
-
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-comerce page</title>
+    <!-- <link> de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="./src/main.css">
 </head>
+
+<header>
+    <!-- Menu -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #ffffff;">
+        <a class="navbar-brand" href="#">Start Bootstrap
+            <!---  <img src="./styles/logo.png" alt="logo">  -->
+        </a> 
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                    Shop
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Cart</button>
+            </form>
+        </div>
+    </nav>
+</header>
 <body>
-    
+
+    <div class="stylesHead col modal-body img-fluid">
+        <h1 class="text-center transparetText">Shop in style</h1>
+        <p class="text-center transparetText">Whit this shop homepage template</p>
+    </div>
+
+    <!-- card grous-->
+    <div class="container">
+        <div class="card-deck card-deck-padding">
+            <div class="card">
+            <img src="./src/producto1.jpg" class="card-img-top" alt="imagen de monitor">
+            <div class="card-body">
+                <h5 class="card-title">Monitor Samsung 49"</h5>
+                <img src="./src/estrellas.jpg" class="" alt="estrellas">
+                <p class="card-text">$35,720.00</p>
+                <p class="card-text">Gaming Odyssey C49G95TSSL, Pantalla curva LED Quantum de 124cm(49"), 32:9, 5120 x 1440, 1.07 Billones de colores, 240Hz Refresh Rate, HDMI, DisplayPort</p>
+            </div>
+            <div class="card-footer">
+                <div class="col text-center">
+                    <button type="button" class="btn btn-outline-dark">Add to cart</button>
+                </div>
+            </div>
+            </div>
+
+            <div class="card">
+            <img src="./src/producto2.jpg" class="card-img-top" alt="tablet apple">
+            <div class="card-body">
+                <h5 class="card-title">iPad Air Apple 4th Gen</h5>
+                <img src="./src/estrellas.jpg" class="" alt="estrellas">
+                <p class="card-text">$15,699.00</p>
+                <p class="card-text">10.9", Almacenamiento de 256GB, iPadOS 14, color Plata, Apple A14 Bionic SoC, Pantalla Liquid Retina, Tecnología In-plane Switching IPS, Pantalla True Tone</p>
+            </div>
+            <div class="card-footer">
+                <div class="col text-center">
+                    <button type="button" class="btn btn-outline-dark">Add to cart</button>
+                </div>
+            </div>
+            </div>
+
+            <div class="card">
+                <img src="./src/producto3.jpg" class="card-img-top" alt="laptop">
+                <div class="card-body">
+                <h5 class="card-title">Alienware 17 X17</h5>
+                <img src="./src/estrellas.jpg" class="" alt="estrellas">
+                <p class="card-text"><span class="precioAnterior">$72,800.00</span>     $64,425.00</p>
+                <p class="card-text">Notebook Gaming Dell R1 Intel Core i7 11800H, FHD 17.3", 16GB Ram, 512GB SSD, Nvidia RTX3060 6GB, Windows 10 Home, Lunar Light</p>
+            </div>
+            <div class="card-footer">
+                <div class="col text-center">
+                    <button type="button" class="btn btn-outline-dark">Add to cart</button>
+                </div>
+            </div>
+            </div>
+
+            <div class="card">
+                <img src="./src/producto4.png" class="card-img-top" alt="teclado computadora">
+                <div class="card-body">
+                    <h5 class="card-title">Teclado Logitech G915</h5>
+                    <img src="./src/estrellas.jpg" class="" alt="estrellas">
+                    <p class="card-text">$4,997.00</p>
+                    <p class="card-text">Gaming Inalámbrico TKL Mecánico  Modelo 920-009660 Tenkeyless Lightspeed RGB</p>
+                </div>
+                <div class="card-footer">
+                    <div class="col text-center">
+                        <button type="button" class="btn btn-outline-dark">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-deck card-deck-padding">
+            <div class="card">
+                <img src="./src/producto5.jpg" class="card-img-top" alt="Discp duro">
+                <div class="card-body">
+                    <h5 class="card-title">SSD Kingston 3.84TB</h5>
+                    <img src="./src/estrellas.jpg" class="" alt="estrellas">
+                    <p class="card-text"><span class="precioAnterior">$3,280.00</span>     $11,670.00</p>
+                    <p class="card-text">Disco Estado Solido de 3480GB SATA 2.5 DC500M SATA 2.5" Mixed-Use Enterprise</p>
+                </div>
+                <div class="card-footer">
+                    <div class="col text-center">
+                        <button type="button" class="btn btn-outline-dark">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./src/producto7.png" class="card-img-top" alt="audifonos">
+                <div class="card-body">
+                    <h5 class="card-title">Bose SoundLink II</h5>
+                    <img src="./src/estrellas.jpg" class="" alt="estrellas">
+                    <p class="card-text">$5,299.00</p>
+                    <p class="card-text">Audífonos inalámbricos externos cerrados SoundLink II, Almohadillas de 9.6cm x 7.4cm</p>
+                </div>
+                <div class="card-footer">
+                    <div class="col text-center">
+                        <button type="button" class="btn btn-outline-dark">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./src/producto6.png" class="card-img-top" alt="componente de computadora">
+                <div class="card-body">
+                    <h5 class="card-title">GeForce RTX 3090</h5>
+                    <img src="./src/estrellas.jpg" class="" alt="estrellas">
+                    <p class="card-text"><span class="precioAnterior">$89,499.00</span>     $74,910.00</p>
+                    <p class="card-text">Tarjeta gráfica de 24GB XLR8 modelo VCG309024TFXPPB, Gaming REVEL EPIC-X RGB Triple Fan Edition</p>
+                </div>
+                <div class="card-footer">
+                    <div class="col text-center">
+                        <button type="button" class="btn btn-outline-dark">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./src/producto8.jpg" class="card-img-top" alt="Smart Watch">
+                <div class="card-body">
+                    <h5 class="card-title">Apple Watch Series 6</h5>
+                    <img src="./src/estrellas.jpg" class="" alt="estrellas">
+                    <p class="card-text">$11,700.00</p>
+                    <p class="card-text">Smart Watch de Cristal de zafiro, color rosa arena, Sensor ECG, Sensor óptico de pulso cardíaco, oxímetro, Dual-core, watchOS 7</p>
+                </div>
+                <div class="card-footer">
+                    <div class="col text-center">
+                        <button type="button" class="btn btn-outline-dark">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--JS-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+</body>
 </html>
